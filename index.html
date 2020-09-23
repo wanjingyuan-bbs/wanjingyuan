@@ -9,7 +9,44 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel = "Shortcut Icon" href="/xx.png">
 		<style>
-      @import url(fontawesome-all.min.css);
+      
+/*
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* BG */
+
+	body.is-preload #bg:before {
+		background-color: transparent;
+	}
+
+/* Header */
+
+	body.is-preload #header {
+		-moz-filter: none;
+		-webkit-filter: none;
+		-ms-filter: none;
+		filter: none;
+	}
+
+		body.is-preload #header > * {
+			opacity: 1;
+		}
+
+		body.is-preload #header .content .inner {
+			max-height: none;
+			padding: 3rem 2rem;
+			opacity: 1;
+		}
+
+/* Main */
+
+	#main article {
+		opacity: 1;
+		margin: 4rem 0 0 0;
+	}
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 /*
@@ -1729,7 +1766,7 @@ input, select, textarea {
 
 		<!-- BG -->
 			<div id="bg"></div>
-<script src="/jquery.min.js"></script>
+<script src="jquery.min.js"></script>
 			<script src="browser.min.js"></script>
 			<script src="breakpoints.min.js"></script>
 			<script src="util.js"></script>
